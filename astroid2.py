@@ -5,7 +5,7 @@ pygame.init()
 clock=pygame.time.Clock()
 # creating game window and title
 screen = pygame.display.set_mode((400,600))
-pygame.display.set_caption("Draw Rectangle")
+pygame.display.set_caption("asteroid")
 
 # Display game window 
 background_image = pygame.image.load("bg2.jpg").convert()
